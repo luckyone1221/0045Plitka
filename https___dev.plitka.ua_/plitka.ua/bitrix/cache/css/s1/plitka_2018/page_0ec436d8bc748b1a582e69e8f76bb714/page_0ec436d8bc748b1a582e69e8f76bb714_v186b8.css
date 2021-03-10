@@ -1,0 +1,502 @@
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/style.css?15948177005873*/
+
+.bx-filter-block a {color: rgb(51, 51, 51);}
+.bx-filter .bx-filter-button-box .bx-filter-block, .bx-filter .bx-filter-parameters-box.bx-active .bx-filter-block { display: block; }
+
+.bx-filter .bx-ui-slider-handle:hover { }
+
+.bx-filter .bx-ui-slider-handle:active { }
+
+.btn-themes { color: rgb(255, 255, 255); }
+
+.btn-themes.item-by { width: 108px; margin-right: 10px; }
+
+.btn-link.item-by { width: 108px; }
+
+.btn-themes.bx-active, .btn-themes.focus, .btn-themes:active, .btn-themes:focus, .btn-themes:hover { color: rgb(255, 255, 255); }
+
+.bx-filter .bx-filter-popup-result a:hover { text-decoration: none; }
+
+.filter-selected-prop { font-weight: bold; text-decoration: underline; }
+
+table.info_images td { vertical-align: middle; }
+
+.img_property_filter { width: 20px; height: 20px; padding: 1px; margin-right: 5px; }
+
+.img_property_filter { height: auto; }
+
+table.info_images td:nth-child(2) { width: 140px; padding-right: 5px; }
+
+.bx-filter.bx-yellow .bx-filter-input-container input:focus { border-color: rgb(238, 146, 0); }
+
+.bx-retina .bx-filter.bx-yellow .bx-filter-input-container input:focus { -webkit-border-image: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/images/active.png") 2 fill repeat; border-image-source: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/images/active.png"); border-image-slice: 2; border-image-width: initial; border-image-outset: initial; border-image-repeat: repeat; }
+
+.bx-filter.bx-yellow .bx-filter-param-label.bx-active .bx-filter-param-btn, .bx-filter.bx-yellow .bx-filter-param-btn:hover, .bx-filter.bx-yellow .bx-filter-param-btn:active, .bx-filter.bx-yellow .bx-filter-param-btn:focus { border-color: rgb(238, 146, 0); }
+
+.bx-retina .bx-filter.bx-yellow .bx-filter-param-label.bx-active .bx-filter-param-btn, .bx-retina .bx-filter.bx-yellow .bx-filter-param-btn:hover, .bx-retina .bx-filter.bx-yellow .bx-filter-param-btn:active, .bx-retina .bx-filter.bx-yellow .bx-filter-select-container:focus { -webkit-border-image: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/images/active.png") 2 fill repeat; border-image-source: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/images/active.png"); border-image-slice: 2; border-image-width: initial; border-image-outset: initial; border-image-repeat: repeat; }
+
+.bx-filter.bx-yellow .btn-themes { background-color: rgb(238, 146, 0); border-color: rgb(238, 146, 0); color: rgb(255, 255, 255); }
+
+.bx-filter.bx-yellow .btn-themes.bx-active, .bx-filter.bx-yellow .btn-themes.focus, .bx-filter.bx-yellow .btn-themes:active, .bx-filter.bx-yellow .btn-themes:focus, .bx-filter.bx-yellow .btn-themes:hover { background-color: rgb(240, 191, 114); border-color: rgb(240, 191, 114); color: rgb(255, 255, 255); }
+
+.bx-filter .item-by { margin-bottom: 10px; }
+
+.bx-filter.bx-yellow .bx-ui-slider-handle.left {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTExNTI2QTUwODRBMTFFNUEwNkRDMTAyRDU5NTREOUMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTExNTI2QTYwODRBMTFFNUEwNkRDMTAyRDU5NTREOUMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFMTE1MjZBMzA4NEExMUU1QTA2REMxMDJENTk1NEQ5QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFMTE1MjZBNDA4NEExMUU1QTA2REMxMDJENTk1NEQ5QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvFD4McAAABcSURBVHjaYvywv4iBAiDKRIlmIN7HRIlmINZhokQziMNEiWZSDcDQTIoBWDUTawBOzcQYgFczIQMIasZnAFGacRlAtGZsBpCkGd0AkjUjG0CWZpgBZGsGAYAAAwDX5BEbXnzziwAAAABJRU5ErkJggg==) no-repeat right top;
+}
+.bx-filter.bx-yellow .bx-ui-slider-handle.right {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDg0ODBBNDUwODRBMTFFNTlENkFFRTc5NTc4RjQxMEIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDg0ODBBNDYwODRBMTFFNTlENkFFRTc5NTc4RjQxMEIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEODQ4MEE0MzA4NEExMUU1OUQ2QUVFNzk1NzhGNDEwQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEODQ4MEE0NDA4NEExMUU1OUQ2QUVFNzk1NzhGNDEwQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvczH7oAAABuSURBVHjaYvywv0iUgYHhNQOZgAmI9wGxKCUG6FBiCBOUJtsQJiQ2WYYwofFJNoQJixhJhjDhECfaECY8ckQZwkTAAoKGMBHhTbyGMBEZ2DgNYSIhyrEawkRiwsMwhImM5I9iCBOZmRBuCECAAQDLQBIGBnHUIwAAAABJRU5ErkJggg==") no-repeat left top;
+}
+
+.list-act ul li a:hover, .del-all {
+    background-position: left -86px !important;
+    color: #ff770d !important;
+}
+
+@media screen and (max-width: 990px) {
+
+    .item-by { width: 80px; }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .bx-touch .bx-filter .bx-filter-popup-result br { display: none; }
+
+}
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/css/buttons.css?15992267396044*/
+.item-by {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    width: 128px;
+    height: 40px;
+    border: 1px solid #ff6309;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    line-height: 39px;
+    text-align: center;
+    outline:none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    background: rgb(255,130,19);
+    background: -moz-linear-gradient(top,  rgba(255,130,19,1) 0%, rgba(255,99,9,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,130,19,1)), color-stop(100%,rgba(255,99,9,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,130,19,1) 0%,rgba(255,99,9,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,130,19,1) 0%,rgba(255,99,9,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,130,19,1) 0%,rgba(255,99,9,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,130,19,1) 0%,rgba(255,99,9,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8213', endColorstr='#ff6309',GradientType=0 );
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    0px 1px 3px 0px rgba(50, 50, 50, 0.4);
+    box-shadow:         0px 1px 3px 0px rgba(50, 50, 50, 0.4);
+}
+.item-by.discount{
+    width:148px;
+}
+.item-by:hover {
+    border: 1px solid #f19000;
+    background: rgb(255,170,0);
+    background: -moz-linear-gradient(top,  rgba(255,170,0,1) 0%, rgba(255,151,0,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,170,0,1)), color-stop(100%,rgba(255,151,0,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,170,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,170,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,170,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,170,0,1) 0%,rgba(255,151,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaa00', endColorstr='#ff9700',GradientType=0 );
+}
+
+.item-by:active {
+    background: rgb(253,167,0);
+    background: -moz-linear-gradient(top,  rgba(253,167,0,1) 0%, rgba(255,151,0,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,167,0,1)), color-stop(100%,rgba(255,151,0,1)));
+    background: -webkit-linear-gradient(top,  rgba(253,167,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: -o-linear-gradient(top,  rgba(253,167,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(253,167,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(253,167,0,1) 0%,rgba(255,151,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fda700', endColorstr='#ff9700',GradientType=0 );
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(189, 113, 0, 0.4);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(189, 113, 0, 0.4);
+    box-shadow:         inset 0px 4px 4px 0px rgba(189, 113, 0, 0.4);
+}
+.item-by-no {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    width: 128px;
+    height: 40px;
+    display: block;
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #e9e9e9;
+}
+
+.compare {
+    float: left;
+    margin-left: 6px;
+    width: 49px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    background-image: url("https://plitka.ua/local/templates/plitka/images/dif.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    outline:none;
+}
+
+.compare:hover {
+    background-color: #efefef;
+}
+
+.compare:active {
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+    box-shadow:         inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+}
+
+.fav {
+    float: left;
+    margin-left: 6px;
+    width: 49px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    background-image: url("https://plitka.ua/local/templates/plitka/images/fav.png");
+    background-repeat: no-repeat;
+    background-position: center 12px;
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    outline:none;
+}
+
+.fav:hover {
+    background-color: #efefef;
+}
+
+.fav:active {
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+    box-shadow:         inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+}
+
+.fav.act {
+    background-color: #eb4139 !important;
+    background-position: center -73px;
+}
+
+.fav.act:hover {
+    background-color: #d70a00 !important;
+}
+
+.fav.act:active {
+    background-color: #d70a00 !important;
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+    box-shadow:         inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+}
+
+.fav.in-wishlist, .compare.in-compare {
+    background-color: #eb4139 !important;
+    background-position: center -73px;
+}
+.fav.in-wishlist:hover, .compare.in-compare:hover {
+    background-color: #d70a00 !important;
+}
+
+.fav.in-wishlist:active, .compare.in-compare:active {
+    background-color: #d70a00 !important;
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+    box-shadow:   inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+}
+.compare{
+    background-repeat: no-repeat;
+    background-position: center 12px;
+}
+.btn-back-as-link {
+    line-height: 40px;
+    width: 208px;
+    text-align: center;
+    display: inline-block;
+}
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/system.pagenavigation/plitka_catalog/style.css?15384788151460*/
+.pagi { float: left; margin-bottom: 10px; text-align: center; width: 100%; }
+
+.ajax_page_1.item-by { float: none; margin: 0px auto; width: inherit; max-width: 300px; height: inherit; }
+
+.ajax_page_1.item-by img, .ajax_page_1.item-by span { vertical-align: middle; }
+
+.pagi ul { border: 1px solid rgb(224, 224, 224); display: inline-block; height: 40px; margin: 0px 6px; vertical-align: top; }
+
+.pagi ul li { border-right: 1px solid rgb(224, 224, 224); float: left; }
+
+.pagi ul li a { color: rgb(0, 0, 0); cursor: pointer; display: block; height: 38px; line-height: 38px; width: 40px; }
+
+.modern-page-current.current { background-color: rgb(228, 228, 228); }
+
+.modern-page-current.loaded {
+    background-color: #eee;
+}
+.pagi ul li:last-child { border-right: none; }
+
+
+div.ajax_page_1 > img.loader{
+    -webkit-animation: preloader 1.5s infinite linear;
+    -moz-animation: preloader 1.5s infinite linear;
+    -ms-animation: preloader 1.5s infinite linear;
+    -o-animation: preloader 1.5s infinite linear;
+    animation: preloader 1.5s infinite linear;
+}
+
+@-webkit-keyframes preloader {
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes preloader {
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes preloader {
+    to { -ms-transform: rotate(360deg); }
+}
+
+@-o-keyframes preloader {
+    to { -o-transform: rotate(360deg); }
+}
+
+@keyframes preloader {
+    to { transform: rotate(360deg); }
+}
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.section/collections/style.css?1553716800309*/
+.catal-item:hover .hide-cat-item {
+    max-height: 999px;
+    overflow: visible;
+    background: #fff;
+    z-index: 999;
+    border: 1px solid rgb(224, 224, 224);
+    border-top: none;
+    padding: 3px 7px;
+    left: 0;
+    position: absolute;
+}
+.text-description-in-page{
+	margin-bottom: 25px;
+}
+/* End */
+
+
+/* Start:/local/components/DBdev/reviews.list/templates/.default/style.css?16063973403789*/
+.tq_review_title{
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    width: auto;
+}
+.one-des-proj-star li {
+    float: left;
+}
+.one-des-proj-star li span {
+    display: inline-block;
+    width: 13px;
+    height: 12px;
+    background: url(https://plitka.ua/local/templates/plitka_2018/css/images/designer/rat.png) right 0 no-repeat;
+    -webkit-background-size: auto 12px;
+    background-size: auto 12px;
+    vertical-align: top;
+    margin-right: 2px;
+}
+.one-des-proj-star li span.act {
+    background-position: 0 0;
+}
+.one-comment-date {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+.one-comment-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+.one-comment-rat {
+    float: right;
+    margin-top: 4px;
+}
+.tq_review_slider_block{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+
+.tq_review_list{
+    display: flex;
+    float: left;
+    width: 100%;
+}
+.tq_review_item{
+    width: 33%;
+    padding: 20px;
+}
+.tq_review_header{
+    height: 50px;
+}
+.tq_review_footer{
+    bottom: 10px;
+    position: absolute;
+}
+.tq_review_footer .one-like{
+   margin: 5px;
+}
+.tq_slider_controls{
+    float: right;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+.tq_slider_controls .bx-controls-direction a {
+    background-image: url(https://plitka.ua/local/templates/plitka_2018/components/bitrix/collection.detail/plitka/images/carus-nav.png);
+    background-repeat: no-repeat;
+    border: 1px solid rgb(224, 224, 224);
+    height: 68px;
+    margin-top: 0px;
+    top: 0px;
+    width: 25px;
+}
+.tq_prev{
+    display: inline-block;
+}
+.tq_next{
+    display: inline-block;
+}
+.tq_slider_controls .bx-prev {
+    background-position: 12px 12px;
+}
+.tq_slider_controls .bx-next {
+    background-position: 12px -80px;
+}
+.tq_slider_controls .bx-controls-direction a {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 99;
+}
+.tq_review_list_block{
+    border: 1px solid rgb(224, 224, 224);
+    float: left;
+    width: 100%;
+}
+.tq_product{
+    height: 75px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.tq_comment{
+    font-family: osr;
+    margin: 15px 0;
+    overflow-wrap: break-word;
+    line-height: 20px;
+    font-size: 15px;
+    -webkit-text-size-adjust: 100%;
+}
+
+div.head-tit {
+    background-image: url(https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog.offers.list/plitka-slider/images/tit.png);
+    background-position: left 18px;
+    background-repeat: repeat-x;
+    float: left;
+    line-height: 35px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.head-tit {
+    position: relative;
+    z-index: 9;
+}
+.head-tit-left {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding-right: 10px;
+}
+.head-tit a {
+    display: inline-block;
+    color: rgb(255, 119, 13);
+    text-decoration: underline;
+}
+.tq_review_title{
+   margin-left: 32px;
+    position: relative;
+}
+.tq_review_title:before{
+    position: absolute;
+    content: '';
+    background: url(https://plitka.ua/local/components/DBdev/reviews.list/templates/.default/img/review_icon.png) no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    left: -35px;
+    top: 6px;
+}
+.tq_slider_controls .disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.tq_product_info {
+    width: 100%;
+    height: 100%;
+}
+.tq_product_info {
+    position: relative;
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+.tq_product_info a{
+    display: flex;
+}
+.tq_product_info a:last-child{
+    padding-left: 5px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.tq_container{
+    padding-left: 28px;
+}
+/* End */
+/* /local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/style.css?15948177005873 */
+/* /local/templates/plitka_2018/css/buttons.css?15992267396044 */
+/* /local/templates/plitka_2018/components/bitrix/system.pagenavigation/plitka_catalog/style.css?15384788151460 */
+/* /local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.section/collections/style.css?1553716800309 */
+/* /local/components/DBdev/reviews.list/templates/.default/style.css?16063973403789 */

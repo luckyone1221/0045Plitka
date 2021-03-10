@@ -1,0 +1,2055 @@
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/style.css?15948177005873*/
+
+.bx-filter-block a {color: rgb(51, 51, 51);}
+.bx-filter .bx-filter-button-box .bx-filter-block, .bx-filter .bx-filter-parameters-box.bx-active .bx-filter-block { display: block; }
+
+.bx-filter .bx-ui-slider-handle:hover { }
+
+.bx-filter .bx-ui-slider-handle:active { }
+
+.btn-themes { color: rgb(255, 255, 255); }
+
+.btn-themes.item-by { width: 108px; margin-right: 10px; }
+
+.btn-link.item-by { width: 108px; }
+
+.btn-themes.bx-active, .btn-themes.focus, .btn-themes:active, .btn-themes:focus, .btn-themes:hover { color: rgb(255, 255, 255); }
+
+.bx-filter .bx-filter-popup-result a:hover { text-decoration: none; }
+
+.filter-selected-prop { font-weight: bold; text-decoration: underline; }
+
+table.info_images td { vertical-align: middle; }
+
+.img_property_filter { width: 20px; height: 20px; padding: 1px; margin-right: 5px; }
+
+.img_property_filter { height: auto; }
+
+table.info_images td:nth-child(2) { width: 140px; padding-right: 5px; }
+
+.bx-filter.bx-yellow .bx-filter-input-container input:focus { border-color: rgb(238, 146, 0); }
+
+.bx-retina .bx-filter.bx-yellow .bx-filter-input-container input:focus { -webkit-border-image: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/images/active.png") 2 fill repeat; border-image-source: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/images/active.png"); border-image-slice: 2; border-image-width: initial; border-image-outset: initial; border-image-repeat: repeat; }
+
+.bx-filter.bx-yellow .bx-filter-param-label.bx-active .bx-filter-param-btn, .bx-filter.bx-yellow .bx-filter-param-btn:hover, .bx-filter.bx-yellow .bx-filter-param-btn:active, .bx-filter.bx-yellow .bx-filter-param-btn:focus { border-color: rgb(238, 146, 0); }
+
+.bx-retina .bx-filter.bx-yellow .bx-filter-param-label.bx-active .bx-filter-param-btn, .bx-retina .bx-filter.bx-yellow .bx-filter-param-btn:hover, .bx-retina .bx-filter.bx-yellow .bx-filter-param-btn:active, .bx-retina .bx-filter.bx-yellow .bx-filter-select-container:focus { -webkit-border-image: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/images/active.png") 2 fill repeat; border-image-source: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/images/active.png"); border-image-slice: 2; border-image-width: initial; border-image-outset: initial; border-image-repeat: repeat; }
+
+.bx-filter.bx-yellow .btn-themes { background-color: rgb(238, 146, 0); border-color: rgb(238, 146, 0); color: rgb(255, 255, 255); }
+
+.bx-filter.bx-yellow .btn-themes.bx-active, .bx-filter.bx-yellow .btn-themes.focus, .bx-filter.bx-yellow .btn-themes:active, .bx-filter.bx-yellow .btn-themes:focus, .bx-filter.bx-yellow .btn-themes:hover { background-color: rgb(240, 191, 114); border-color: rgb(240, 191, 114); color: rgb(255, 255, 255); }
+
+.bx-filter .item-by { margin-bottom: 10px; }
+
+.bx-filter.bx-yellow .bx-ui-slider-handle.left {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTExNTI2QTUwODRBMTFFNUEwNkRDMTAyRDU5NTREOUMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTExNTI2QTYwODRBMTFFNUEwNkRDMTAyRDU5NTREOUMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFMTE1MjZBMzA4NEExMUU1QTA2REMxMDJENTk1NEQ5QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFMTE1MjZBNDA4NEExMUU1QTA2REMxMDJENTk1NEQ5QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvFD4McAAABcSURBVHjaYvywv4iBAiDKRIlmIN7HRIlmINZhokQziMNEiWZSDcDQTIoBWDUTawBOzcQYgFczIQMIasZnAFGacRlAtGZsBpCkGd0AkjUjG0CWZpgBZGsGAYAAAwDX5BEbXnzziwAAAABJRU5ErkJggg==) no-repeat right top;
+}
+.bx-filter.bx-yellow .bx-ui-slider-handle.right {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDg0ODBBNDUwODRBMTFFNTlENkFFRTc5NTc4RjQxMEIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDg0ODBBNDYwODRBMTFFNTlENkFFRTc5NTc4RjQxMEIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEODQ4MEE0MzA4NEExMUU1OUQ2QUVFNzk1NzhGNDEwQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEODQ4MEE0NDA4NEExMUU1OUQ2QUVFNzk1NzhGNDEwQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvczH7oAAABuSURBVHjaYvywv0iUgYHhNQOZgAmI9wGxKCUG6FBiCBOUJtsQJiQ2WYYwofFJNoQJixhJhjDhECfaECY8ckQZwkTAAoKGMBHhTbyGMBEZ2DgNYSIhyrEawkRiwsMwhImM5I9iCBOZmRBuCECAAQDLQBIGBnHUIwAAAABJRU5ErkJggg==") no-repeat left top;
+}
+
+.list-act ul li a:hover, .del-all {
+    background-position: left -86px !important;
+    color: #ff770d !important;
+}
+
+@media screen and (max-width: 990px) {
+
+    .item-by { width: 80px; }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .bx-touch .bx-filter .bx-filter-popup-result br { display: none; }
+
+}
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/css/buttons.css?15992267396044*/
+.item-by {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    width: 128px;
+    height: 40px;
+    border: 1px solid #ff6309;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    line-height: 39px;
+    text-align: center;
+    outline:none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    background: rgb(255,130,19);
+    background: -moz-linear-gradient(top,  rgba(255,130,19,1) 0%, rgba(255,99,9,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,130,19,1)), color-stop(100%,rgba(255,99,9,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,130,19,1) 0%,rgba(255,99,9,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,130,19,1) 0%,rgba(255,99,9,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,130,19,1) 0%,rgba(255,99,9,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,130,19,1) 0%,rgba(255,99,9,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8213', endColorstr='#ff6309',GradientType=0 );
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    0px 1px 3px 0px rgba(50, 50, 50, 0.4);
+    box-shadow:         0px 1px 3px 0px rgba(50, 50, 50, 0.4);
+}
+.item-by.discount{
+    width:148px;
+}
+.item-by:hover {
+    border: 1px solid #f19000;
+    background: rgb(255,170,0);
+    background: -moz-linear-gradient(top,  rgba(255,170,0,1) 0%, rgba(255,151,0,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,170,0,1)), color-stop(100%,rgba(255,151,0,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,170,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,170,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,170,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,170,0,1) 0%,rgba(255,151,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaa00', endColorstr='#ff9700',GradientType=0 );
+}
+
+.item-by:active {
+    background: rgb(253,167,0);
+    background: -moz-linear-gradient(top,  rgba(253,167,0,1) 0%, rgba(255,151,0,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,167,0,1)), color-stop(100%,rgba(255,151,0,1)));
+    background: -webkit-linear-gradient(top,  rgba(253,167,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: -o-linear-gradient(top,  rgba(253,167,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(253,167,0,1) 0%,rgba(255,151,0,1) 100%);
+    background: linear-gradient(to bottom,  rgba(253,167,0,1) 0%,rgba(255,151,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fda700', endColorstr='#ff9700',GradientType=0 );
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(189, 113, 0, 0.4);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(189, 113, 0, 0.4);
+    box-shadow:         inset 0px 4px 4px 0px rgba(189, 113, 0, 0.4);
+}
+.item-by-no {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    width: 128px;
+    height: 40px;
+    display: block;
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #e9e9e9;
+}
+
+.compare {
+    float: left;
+    margin-left: 6px;
+    width: 49px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    background-image: url("https://plitka.ua/local/templates/plitka/images/dif.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    outline:none;
+}
+
+.compare:hover {
+    background-color: #efefef;
+}
+
+.compare:active {
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+    box-shadow:         inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+}
+
+.fav {
+    float: left;
+    margin-left: 6px;
+    width: 49px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    background-image: url("https://plitka.ua/local/templates/plitka/images/fav.png");
+    background-repeat: no-repeat;
+    background-position: center 12px;
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    outline:none;
+}
+
+.fav:hover {
+    background-color: #efefef;
+}
+
+.fav:active {
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+    box-shadow:         inset 0px 4px 4px 0px rgba(222, 222, 222, 1);
+}
+
+.fav.act {
+    background-color: #eb4139 !important;
+    background-position: center -73px;
+}
+
+.fav.act:hover {
+    background-color: #d70a00 !important;
+}
+
+.fav.act:active {
+    background-color: #d70a00 !important;
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+    box-shadow:         inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+}
+
+.fav.in-wishlist, .compare.in-compare {
+    background-color: #eb4139 !important;
+    background-position: center -73px;
+}
+.fav.in-wishlist:hover, .compare.in-compare:hover {
+    background-color: #d70a00 !important;
+}
+
+.fav.in-wishlist:active, .compare.in-compare:active {
+    background-color: #d70a00 !important;
+    -webkit-box-shadow: inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+    -moz-box-shadow:    inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+    box-shadow:   inset 0px 4px 4px 0px rgba(160, 7, 0, 1);
+}
+.compare{
+    background-repeat: no-repeat;
+    background-position: center 12px;
+}
+.btn-back-as-link {
+    line-height: 40px;
+    width: 208px;
+    text-align: center;
+    display: inline-block;
+}
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/catalog.smart.filter.url.builder/plitka-first-level/style.css?153847881446*/
+.block-cat:last-child { border-bottom: none; }
+/* End */
+
+
+/* Start:/local/components/DBdev/reviews.list/templates/.default/style.css?16063973403789*/
+.tq_review_title{
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    width: auto;
+}
+.one-des-proj-star li {
+    float: left;
+}
+.one-des-proj-star li span {
+    display: inline-block;
+    width: 13px;
+    height: 12px;
+    background: url(https://plitka.ua/local/templates/plitka_2018/css/images/designer/rat.png) right 0 no-repeat;
+    -webkit-background-size: auto 12px;
+    background-size: auto 12px;
+    vertical-align: top;
+    margin-right: 2px;
+}
+.one-des-proj-star li span.act {
+    background-position: 0 0;
+}
+.one-comment-date {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+.one-comment-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 12px;
+}
+.one-comment-rat {
+    float: right;
+    margin-top: 4px;
+}
+.tq_review_slider_block{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+
+.tq_review_list{
+    display: flex;
+    float: left;
+    width: 100%;
+}
+.tq_review_item{
+    width: 33%;
+    padding: 20px;
+}
+.tq_review_header{
+    height: 50px;
+}
+.tq_review_footer{
+    bottom: 10px;
+    position: absolute;
+}
+.tq_review_footer .one-like{
+   margin: 5px;
+}
+.tq_slider_controls{
+    float: right;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+.tq_slider_controls .bx-controls-direction a {
+    background-image: url(https://plitka.ua/local/templates/plitka_2018/components/bitrix/collection.detail/plitka/images/carus-nav.png);
+    background-repeat: no-repeat;
+    border: 1px solid rgb(224, 224, 224);
+    height: 68px;
+    margin-top: 0px;
+    top: 0px;
+    width: 25px;
+}
+.tq_prev{
+    display: inline-block;
+}
+.tq_next{
+    display: inline-block;
+}
+.tq_slider_controls .bx-prev {
+    background-position: 12px 12px;
+}
+.tq_slider_controls .bx-next {
+    background-position: 12px -80px;
+}
+.tq_slider_controls .bx-controls-direction a {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 99;
+}
+.tq_review_list_block{
+    border: 1px solid rgb(224, 224, 224);
+    float: left;
+    width: 100%;
+}
+.tq_product{
+    height: 75px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.tq_comment{
+    font-family: osr;
+    margin: 15px 0;
+    overflow-wrap: break-word;
+    line-height: 20px;
+    font-size: 15px;
+    -webkit-text-size-adjust: 100%;
+}
+
+div.head-tit {
+    background-image: url(https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog.offers.list/plitka-slider/images/tit.png);
+    background-position: left 18px;
+    background-repeat: repeat-x;
+    float: left;
+    line-height: 35px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.head-tit {
+    position: relative;
+    z-index: 9;
+}
+.head-tit-left {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding-right: 10px;
+}
+.head-tit a {
+    display: inline-block;
+    color: rgb(255, 119, 13);
+    text-decoration: underline;
+}
+.tq_review_title{
+   margin-left: 32px;
+    position: relative;
+}
+.tq_review_title:before{
+    position: absolute;
+    content: '';
+    background: url(https://plitka.ua/local/components/DBdev/reviews.list/templates/.default/img/review_icon.png) no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    left: -35px;
+    top: 6px;
+}
+.tq_slider_controls .disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
+.tq_product_info {
+    width: 100%;
+    height: 100%;
+}
+.tq_product_info {
+    position: relative;
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+.tq_product_info a{
+    display: flex;
+}
+.tq_product_info a:last-child{
+    padding-left: 5px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.tq_container{
+    padding-left: 28px;
+}
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/catalog.offers.list/plitka-slider/style.css?15447312007644*/
+.carus-tov .bx-controls-direction {
+    background-color: rgb(255, 255, 255); height: 39px; padding-left: 18px; position: absolute; right: 0px; top: -58px; width: 92px;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: block;
+}
+.carus-tov .bx-wrapper .bx-controls-direction a {
+    background-image: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog.offers.list/plitka-slider/images/carus-nav.png"); border: 1px solid rgb(224, 224, 224); height: 39px; margin-top: 0px; top: 0px; width: 33px;
+}
+
+.carus-tov .bx-wrapper .bx-prev, .carus-tov .bx-wrapper .bx-prev:hover {
+    background-position: 13px 15px; left: auto; right: 41px;
+}
+
+.carus-tov .bx-wrapper .bx-next, .carus-tov .bx-wrapper .bx-next:hover {
+    background-position: 13px -76px; right: 0px;
+}
+.carus-tov .bx-wrapper .bx-next:hover, .carus-tov .bx-wrapper .bx-prev:hover {
+    background-color: #eee;
+}
+.best-price {
+    top: 41px;
+    position: relative;
+}
+
+.head-tit {
+    background-image: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog.offers.list/plitka-slider/images/tit.png");
+    background-position: left 18px;
+    background-repeat: repeat-x;
+    float: left;
+    line-height: 35px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.head-tit-left {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    padding-right: 10px;
+}
+
+.tit-ico {
+    float: left;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+.head-tit h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.head-tit span {
+    float: left;
+    font-size: 14px;
+    padding: 0px 5px;
+}
+
+.head-tit a {
+    color: rgb(255, 119, 13);
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.carus-tov {
+    float: left;
+    margin-bottom: 38px;
+    position: relative;
+    width: 100%;
+}
+
+.carus-tov {
+    padding: 10px;
+}
+
+.carus-tov {
+    padding: 5px;
+}
+
+.best-price .carus-tov {
+    padding: 0px;
+}
+
+.one-carus-item {
+    border: 1px solid rgb(224, 224, 224);
+    float: left;
+    padding: 5px 15px 20px;
+    width: 270px;
+}
+
+.one-carus-thumb {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    float: left;
+    height: 172px;
+    margin-bottom: 14px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.one-carus-thumb-in {
+    display: table-cell;
+    height: 165px;
+    text-align: center;
+    vertical-align: middle;
+    width: 236px;
+}
+
+.one-carus-item-tit {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    height: 46px;
+    width: 100%;
+}
+
+.one-carus-item-tit {
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.one-carus-item-tit a,.one-art a,.one-action a {
+    color: rgb(0, 0, 0);
+}
+
+.one-carus-art {
+    float: left;
+    height: 87px;
+    width: 100%;
+}
+
+.one-carus-art {
+    height: 110px;
+}
+
+.one-art {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.one-art {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.one-art a {
+    text-decoration: underline;
+}
+
+.price {
+    color: rgb(255, 119, 13);
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    height: 24px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.price span {
+    font-size: 14px;
+}
+
+.one-carus-button,.one-action-thumb {
+    float: left;
+    width: 100%;
+}
+
+.was-pr {
+    float: left;
+    color: #898989;
+    margin-right: 12px;}
+
+.was-pr b {
+    text-decoration: line-through;}
+
+.pre-order-href {
+    margin-right: initial;
+    float: initial;
+    display: block;
+    cursor: pointer;
+    height: initial;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 38px;
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: initial;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    margin-left: 5px;
+}
+.pre-order-href img {
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1570px) {
+    .one-carus-item {
+        margin-right: 58px !important;
+        width: 270px !important;
+    }
+
+    .one-carus-item {
+        margin-right: 58px !important;
+        width: 270px !important;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .one-carus-item {
+        margin-right: 80px !important;
+    }
+
+    .one-carus-item {
+        margin-right: 80px !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .one-carus-item {
+        margin-right: 25px !important;
+        width: 240px !important;
+    }
+
+    .one-carus-art {
+        height: 60px;
+    }
+
+    .catalog-tov,  .one-carus-button,  .one-carus-art .one-art:nth-child(3),  .one-carus-art .one-art:nth-child(4) {
+        display: none;
+    }
+
+    .price {
+        margin-bottom: 0px;
+    }
+
+    .one-carus-thumb-in {
+        width: 180px;
+    }
+
+    .one-carus-art {
+        height: initial;
+    }
+
+    .price {
+        bottom: 3px;
+        position: relative;
+        height: 48px;
+    }
+
+    .one-carus-button {
+        display: block;
+        position: relative;
+    }
+
+    .one-carus-button .item-by {
+        width: 80px;
+    }
+
+    .one-carus-item {
+        margin-right: 25px !important;
+        width: 240px !important;
+    }
+
+    .one-carus-art {
+        height: 60px;
+    }
+
+    .catalog-tov,  .one-carus-button,  .one-carus-art .one-art:nth-child(3),  .one-carus-art .one-art:nth-child(4) {
+        display: none;
+    }
+
+    .price {
+        margin-bottom: 0px;
+    }
+
+    .one-carus-thumb-in {
+        width: 180px;
+    }
+
+    .one-carus-art {
+        height: initial;
+    }
+
+    .price {
+        bottom: 3px;
+        position: relative;
+        height: 48px;
+    }
+
+    .one-carus-button {
+        display: block;
+        position: relative;
+    }
+
+    .one-carus-button .item-by {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .catalog-tov,  .best-in-cat,  .one-carus-thumb .action {
+        display: none;
+    }
+
+    #tabs-car-1,  #tabs-car-2,  #tabs-car-3 {
+        display: block !important;
+    }
+
+    .one-carus-item {
+        padding: 5px 15px;
+        margin-right: 10px !important;
+        width: 155px !important;
+    }
+
+    .one-carus-thumb,  .one-carus-thumb-in {
+        height: 105px;
+    }
+
+    .one-carus-thumb-in img {
+        max-width: 105px;
+    }
+
+    .one-carus-item-tit {
+        font-size: 12px;
+        height: 78px;
+        line-height: 21px;
+        overflow: hidden;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .one-carus-thumb,  .one-carus-thumb-in {
+        height: 165px;
+    }
+
+    .price {
+        bottom: 0px;
+        position: relative;
+    }
+
+    .one-carus-button .item-by {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .catalog-tov,  .best-in-cat,  .one-carus-thumb .action {
+        display: none;
+    }
+
+    #tabs-car-1,  #tabs-car-2,  #tabs-car-3 {
+        display: block !important;
+    }
+
+    .one-carus-item {
+        padding: 5px 15px;
+        margin-right: 10px !important;
+        width: 155px !important;
+    }
+
+    .one-carus-thumb,  .one-carus-thumb-in {
+        height: 105px;
+    }
+
+    .one-carus-thumb-in img {
+        max-width: 105px;
+    }
+
+    .one-carus-item-tit {
+        font-size: 12px;
+        height: 78px;
+        line-height: 21px;
+        overflow: hidden;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .one-carus-thumb,  .one-carus-thumb-in {
+        height: 165px;
+    }
+
+    .price {
+        bottom: 0px;
+        position: relative;
+    }
+
+    .one-carus-button .item-by {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+}
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/js/highslide/highslide-custom.css?153847881523738*/
+/**
+* @file: highslide.css 
+* @version: 4.1.13
+*/
+.highslide-container div {
+	font-family: Verdana, Helvetica;
+	font-size: 10pt;
+}
+.highslide-container table {
+	background: none;
+	table-layout: auto;
+}
+.highslide {
+	outline: none;
+	text-decoration: none;
+}
+.highslide img {
+	border: 2px solid silver;
+}
+.highslide:hover img {
+	border-color: gray;
+}
+.highslide-active-anchor img {
+	visibility: hidden;
+}
+.highslide-gallery .highslide-active-anchor img {
+	border-color: black;
+	visibility: visible;
+	cursor: default;
+}
+.highslide-image {
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+}
+.highslide-wrapper, .highslide-outline {
+	background: white;
+}
+.glossy-dark {
+	background: #111;
+}
+
+.highslide-image-blur {
+}
+.highslide-number {
+	font-weight: bold;
+	color: gray;
+	font-size: .9em;
+}
+.highslide-caption {
+	display: none;
+	font-size: 1em;
+	padding: 5px;
+	/*background: white;*/
+}
+.highslide-heading {
+	display: none;
+	font-weight: bold;
+	margin: 0.4em;
+}
+.highslide-dimming {
+	/*position: absolute;*/
+	background: black;
+}
+a.highslide-full-expand {
+   background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/fullexpand.gif) no-repeat;
+   display: block;
+   margin: 0 10px 10px 0;
+   width: 34px;
+   height: 34px;
+}
+.highslide-loading {
+	display: block;
+	color: black;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px;
+	border: 1px solid white;
+	background-color: white;
+	padding-left: 22px;
+	background-image: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/loader.white.gif);
+	background-repeat: no-repeat;
+	background-position: 3px 1px;
+}
+a.highslide-credits,
+a.highslide-credits i {
+	padding: 2px;
+	color: silver;
+	text-decoration: none;
+	font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+	color: white;
+	background-color: gray;
+}
+.highslide-move, .highslide-move * {
+	cursor: move;
+}
+
+.highslide-viewport {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: none;
+	left: 0;
+	top: 0;
+}
+.highslide-overlay {
+	display: none;
+}
+.hidden-container {
+	display: none;
+}
+/* Example of a semitransparent, offset closebutton */
+.closebutton {
+	position: relative;
+	top: -15px;
+	left: 15px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/close.png);
+	/* NOTE! For IE6, you also need to update the highslide-ie6.css file. */
+}
+
+/*****************************************************************************/
+/* Thumbnail boxes for the galleries.                                        */
+/* Remove these if you are not using a gallery.                              */
+/*****************************************************************************/
+.highslide-gallery ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.highslide-gallery ul li {
+	display: block;
+	position: relative;
+	float: left;
+	width: 106px;
+	height: 106px;
+	border: 1px solid silver;
+	background: #ededed;
+	margin: 2px;
+	padding: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+.highslide-gallery ul a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.highslide-gallery ul img {
+ 	position: relative;
+	top: -50%;
+	left: -50%;
+}
+html>/**/body .highslide-gallery ul li {
+	display: table;
+	text-align: center;
+}
+html>/**/body .highslide-gallery ul li {
+	text-align: center;
+}
+html>/**/body .highslide-gallery ul a {
+	position: static;
+	display: table-cell;
+	vertical-align: middle;
+}
+html>/**/body .highslide-gallery ul img {
+	position: static;
+}
+
+/*****************************************************************************/
+/* Controls for the galleries.											     */
+/* Remove these if you are not using a gallery							     */
+/*****************************************************************************/
+.highslide-controls {
+	width: 195px;
+	height: 40px;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-white.gif) 0 -90px no-repeat;
+	margin: 20px 15px 10px 0;
+}
+.highslide-controls ul {
+	position: relative;
+	left: 15px;
+	height: 40px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-white.gif) right -90px no-repeat;
+
+}
+.highslide-controls li {
+	float: left;
+	padding: 5px 0;
+	margin:0;
+	list-style: none;
+}
+.highslide-controls a {
+	background-image: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-white.gif);
+	display: block;
+	float: left;
+	height: 30px;
+	width: 30px;
+	outline: none;
+}
+.highslide-controls a.disabled {
+	cursor: default;
+}
+.highslide-controls a.disabled span {
+	cursor: default;
+}
+.highslide-controls a span {
+	/* hide the text for these graphic buttons */
+	display: none;
+	cursor: pointer;
+}
+
+
+/* The CSS sprites for the controlbar - see http://www.google.com/search?q=css+sprites */
+.highslide-controls .highslide-previous a {
+	background-position: 0 0;
+}
+.highslide-controls .highslide-previous a:hover {
+	background-position: 0 -30px;
+}
+.highslide-controls .highslide-previous a.disabled {
+	background-position: 0 -60px !important;
+}
+.highslide-controls .highslide-play a {
+	background-position: -30px 0;
+}
+.highslide-controls .highslide-play a:hover {
+	background-position: -30px -30px;
+}
+.highslide-controls .highslide-play a.disabled {
+	background-position: -30px -60px !important;
+}
+.highslide-controls .highslide-pause a {
+	background-position: -60px 0;
+}
+.highslide-controls .highslide-pause a:hover {
+	background-position: -60px -30px;
+}
+.highslide-controls .highslide-next a {
+	background-position: -90px 0;
+}
+.highslide-controls .highslide-next a:hover {
+	background-position: -90px -30px;
+}
+.highslide-controls .highslide-next a.disabled {
+	background-position: -90px -60px !important;
+}
+.highslide-controls .highslide-move a {
+	background-position: -120px 0;
+}
+.highslide-controls .highslide-move a:hover {
+	background-position: -120px -30px;
+}
+.highslide-controls .highslide-full-expand a {
+	background-position: -150px 0;
+}
+.highslide-controls .highslide-full-expand a:hover {
+	background-position: -150px -30px;
+}
+.highslide-controls .highslide-full-expand a.disabled {
+	background-position: -150px -60px !important;
+}
+.highslide-controls .highslide-close a {
+	background-position: -180px 0;
+}
+.highslide-controls .highslide-close a:hover {
+	background-position: -180px -30px;
+}
+
+/*****************************************************************************/
+/* Styles for the HTML popups											     */
+/* Remove these if you are not using Highslide HTML						     */
+/*****************************************************************************/
+.highslide-maincontent {
+	display: none;
+}
+.highslide-html {
+	background-color: white;
+}
+.mobile .highslide-html {
+	border: 1px solid silver;
+}
+.highslide-html-content {
+	display: none;
+	width: 400px;
+	padding: 0 5px 5px 5px;
+}
+.highslide-header {
+	padding-bottom: 5px;
+}
+.highslide-header ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.highslide-header ul li {
+	display: inline;
+	padding-left: 1em;
+}
+.highslide-header ul li.highslide-previous, .highslide-header ul li.highslide-next {
+	display: none;
+}
+.highslide-header a {
+	font-weight: bold;
+	color: gray;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.highslide-header a:hover {
+	color: black;
+}
+.highslide-header .highslide-move a {
+	cursor: move;
+}
+.highslide-footer {
+	height: 16px;
+}
+.highslide-footer .highslide-resize {
+	display: block;
+	float: right;
+	margin-top: 5px;
+	height: 11px;
+	width: 11px;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/resize.gif) no-repeat;
+}
+.highslide-footer .highslide-resize span {
+	display: none;
+}
+.highslide-body {
+}
+.highslide-resize {
+	cursor: nw-resize;
+}
+
+/*****************************************************************************/
+/* Styles for the Individual wrapper class names.							 */
+/* See www.highslide.com/ref/hs.wrapperClassName							 */
+/* You can safely remove the class name themes you don't use				 */
+/*****************************************************************************/
+
+/* hs.wrapperClassName = 'draggable-header' */
+.draggable-header .highslide-header {
+	height: 18px;
+	border-bottom: 1px solid #dddddd;
+}
+.draggable-header .highslide-heading {
+	position: absolute;
+	margin: 2px 0.4em;
+}
+
+.draggable-header .highslide-header .highslide-move {
+	cursor: move;
+	display: block;
+	height: 16px;
+	position: absolute;
+	right: 24px;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.draggable-header .highslide-header .highslide-move * {
+	display: none;
+}
+.draggable-header .highslide-header .highslide-close {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	z-index: 5;
+	padding: 0;
+}
+.draggable-header .highslide-header .highslide-close a {
+	display: block;
+	height: 16px;
+	width: 16px;
+	background-image: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/closeX.png);
+}
+.draggable-header .highslide-header .highslide-close a:hover {
+	background-position: 0 16px;
+}
+.draggable-header .highslide-header .highslide-close span {
+	display: none;
+}
+.draggable-header .highslide-maincontent {
+	padding-top: 1em;
+}
+
+/* hs.wrapperClassName = 'titlebar' */
+.titlebar .highslide-header {
+	height: 18px;
+	border-bottom: 1px solid #dddddd;
+}
+.titlebar .highslide-heading {
+	position: absolute;
+	width: 90%;
+	margin: 1px 0 1px 5px;
+	color: #666666;
+}
+
+.titlebar .highslide-header .highslide-move {
+	cursor: move;
+	display: block;
+	height: 16px;
+	position: absolute;
+	right: 24px;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.titlebar .highslide-header .highslide-move * {
+	display: none;
+}
+.titlebar .highslide-header li {
+	position: relative;
+	top: 3px;
+	z-index: 2;
+	padding: 0 0 0 1em;
+}
+.titlebar .highslide-maincontent {
+	padding-top: 1em;
+}
+
+/* hs.wrapperClassName = 'no-footer' */
+.no-footer .highslide-footer {
+	display: none;
+}
+
+/* hs.wrapperClassName = 'wide-border' */
+.wide-border {
+	background: white;
+}
+.wide-border .highslide-image {
+	border-width: 10px;
+}
+.wide-border .highslide-caption {
+	padding: 0 10px 10px 10px;
+}
+
+/* hs.wrapperClassName = 'borderless' */
+.borderless .highslide-image {
+	border: none;
+}
+.borderless .highslide-caption {
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	background: silver;
+}
+
+/* hs.wrapperClassName = 'outer-glow' */
+.outer-glow {
+	background: #444;
+}
+.outer-glow .highslide-image {
+	border: 5px solid #444444;
+}
+.outer-glow .highslide-caption {
+	border: 5px solid #444444;
+	border-top: none;
+	padding: 5px;
+	background-color: gray;
+}
+
+/* hs.wrapperClassName = 'colored-border' */
+.colored-border {
+	background: white;
+}
+.colored-border .highslide-image {
+	border: 2px solid green;
+}
+.colored-border .highslide-caption {
+	border: 2px solid green;
+	border-top: none;
+}
+
+/* hs.wrapperClassName = 'dark' */
+.dark {
+	background: #111;
+}
+.dark .highslide-image {
+	border-color: black black #202020 black;
+	background: gray;
+}
+.dark .highslide-caption {
+	color: white;
+	background: #111;
+}
+.dark .highslide-controls,
+.dark .highslide-controls ul,
+.dark .highslide-controls a {
+	background-image: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-black-border.gif);
+}
+
+/* hs.wrapperClassName = 'floating-caption' */
+.floating-caption .highslide-caption {
+	position: absolute;
+	padding: 1em 0 0 0;
+	background: none;
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+
+/* hs.wrapperClassName = 'controls-in-bottom' */
+.controls-in-bottom .highslide-heading {
+	color: gray;
+	font-weight: bold;
+	height: 20px;
+	overflow: hidden;
+	cursor: default;
+	padding: 0 0 0 22px;
+	margin: 0;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/icon.gif) no-repeat 0 1px;
+}
+.controls-in-bottom .highslide-controls {
+	width: 105px;
+	height: 20px;
+	position: relative;
+	bottom:-57px;
+	margin: 0;
+	background: none;
+}
+.controls-in-bottom .highslide-controls {
+	width: 195px;
+	height: 40px;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-black-border.gif) 0 -90px no-repeat;
+	margin: 20px 15px 10px 0;
+}
+.controls-in-bottom .highslide-controls ul {
+	position: relative;
+	left: 15px;
+	height: 40px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-black-border.gif) right -90px no-repeat;
+
+}
+.controls-in-bottom .highslide-controls li {
+	float: left;
+	padding: 5px 0;
+	margin:0;
+	list-style: none;
+}
+.controls-in-bottom .highslide-controls a {
+	background-image: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-black-border.gif);
+	display: block;
+	float: left;
+	height: 30px;
+	width: 30px;
+	outline: none;
+}
+.controls-in-bottom .highslide-controls a.disabled {
+	cursor: default;
+}
+.controls-in-bottom .highslide-controls a.disabled span {
+	cursor: default;
+}
+.controls-in-bottom .highslide-controls a span {
+	/* hide the text for these graphic buttons */
+	display: none;
+	cursor: pointer;
+}
+.controls-in-bottom .highslide-controls .highslide-previous a {
+	background-position: 0 0;
+}
+.controls-in-bottom .highslide-controls .highslide-previous a:hover {
+	background-position: 0 -30px;
+}
+.controls-in-bottom .highslide-controls .highslide-previous a.disabled {
+	background-position: 0 -60px !important;
+}
+.controls-in-bottom .highslide-controls .highslide-play a {
+	background-position: -30px 0;
+}
+.controls-in-bottom .highslide-controls .highslide-play a:hover {
+	background-position: -30px -30px;
+}
+.controls-in-bottom .highslide-controls .highslide-play a.disabled {
+	background-position: -30px -60px !important;
+}
+.controls-in-bottom .highslide-controls .highslide-pause a {
+	background-position: -60px 0;
+}
+.controls-in-bottom .highslide-controls .highslide-pause a:hover {
+	background-position: -60px -30px;
+}
+.controls-in-bottom .highslide-controls .highslide-next a {
+	background-position: -90px 0;
+}
+.controls-in-bottom .highslide-controls .highslide-next a:hover {
+	background-position: -90px -30px;
+}
+.controls-in-bottom .highslide-controls .highslide-next a.disabled {
+	background-position: -90px -60px !important;
+}
+.controls-in-bottom .highslide-controls .highslide-move a {
+	background-position: -120px 0;
+}
+.controls-in-bottom .highslide-controls .highslide-move a:hover {
+	background-position: -120px -30px;
+}
+.controls-in-bottom .highslide-controls .highslide-full-expand a {
+	background-position: -150px 0;
+}
+.controls-in-bottom .highslide-controls .highslide-full-expand a:hover {
+	background-position: -150px -30px;
+}
+.controls-in-bottom .highslide-controls .highslide-full-expand a.disabled {
+	background-position: -150px -60px !important;
+}
+.controls-in-bottom .highslide-controls .highslide-close a {
+	background-position: -180px 0;
+}
+.controls-in-bottom .highslide-controls .highslide-close a:hover {
+	background-position: -180px -30px;
+}
+/* hs.wrapperClassName = 'controls-in-heading' */
+.controls-in-heading .highslide-heading {
+	color: gray;
+	font-weight: bold;
+	height: 20px;
+	overflow: hidden;
+	cursor: default;
+	padding: 0 0 0 22px;
+	margin: 0;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/icon.gif) no-repeat 0 1px;
+}
+.controls-in-heading .highslide-controls {
+	width: 105px;
+	height: 20px;
+	position: relative;
+	margin: 0;
+	top: -23px;
+	left: 7px;
+	background: none;
+}
+.controls-in-heading .highslide-controls ul {
+	position: static;
+	height: 20px;
+	background: none;
+}
+.controls-in-heading .highslide-controls li {
+	padding: 0;
+}
+.controls-in-heading .highslide-controls a {
+	background-image: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-white-small.gif);
+	height: 20px;
+	width: 20px;
+}
+
+.controls-in-heading .highslide-controls .highslide-move {
+	display: none;
+}
+
+.controls-in-heading .highslide-controls .highslide-previous a {
+	background-position: 0 0;
+}
+.controls-in-heading .highslide-controls .highslide-previous a:hover {
+	background-position: 0 -20px;
+}
+.controls-in-heading .highslide-controls .highslide-previous a.disabled {
+	background-position: 0 -40px !important;
+}
+.controls-in-heading .highslide-controls .highslide-play a {
+	background-position: -20px 0;
+}
+.controls-in-heading .highslide-controls .highslide-play a:hover {
+	background-position: -20px -20px;
+}
+.controls-in-heading .highslide-controls .highslide-play a.disabled {
+	background-position: -20px -40px !important;
+}
+.controls-in-heading .highslide-controls .highslide-pause a {
+	background-position: -40px 0;
+}
+.controls-in-heading .highslide-controls .highslide-pause a:hover {
+	background-position: -40px -20px;
+}
+.controls-in-heading .highslide-controls .highslide-next a {
+	background-position: -60px 0;
+}
+.controls-in-heading .highslide-controls .highslide-next a:hover {
+	background-position: -60px -20px;
+}
+.controls-in-heading .highslide-controls .highslide-next a.disabled {
+	background-position: -60px -40px !important;
+}
+.controls-in-heading .highslide-controls .highslide-full-expand a {
+	background-position: -100px 0;
+}
+.controls-in-heading .highslide-controls .highslide-full-expand a:hover {
+	background-position: -100px -20px;
+}
+.controls-in-heading .highslide-controls .highslide-full-expand a.disabled {
+	background-position: -100px -40px !important;
+}
+.controls-in-heading .highslide-controls .highslide-close a {
+	background-position: -120px 0;
+}
+.controls-in-heading .highslide-controls .highslide-close a:hover {
+	background-position: -120px -20px;
+}
+
+/*****************************************************************************/
+/* Styles for text based controls.						                     */
+/* You can safely remove this if you don't use text based controls			 */
+/*****************************************************************************/
+
+.text-controls .highslide-controls {
+	width: auto;
+	height: auto;
+	margin: 0;
+	text-align: center;
+	background: none;
+}
+.text-controls ul {
+	position: static;
+	background: none;
+	height: auto;
+	left: 0;
+}
+.text-controls .highslide-move {
+	display: none;
+}
+.text-controls li {
+    background-image: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-text-buttons.png);
+	background-position: right top !important;
+	padding: 0;
+	margin-left: 15px;
+	display: block;
+	width: auto;
+}
+.text-controls a {
+    background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-text-buttons.png) no-repeat;
+    background-position: left top !important;
+    position: relative;
+    left: -10px;
+	display: block;
+	width: auto;
+	height: auto;
+	text-decoration: none !important;
+}
+.text-controls a span {
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/controlbar-text-buttons.png) no-repeat;
+    margin: 1px 2px 1px 10px;
+	display: block;
+    min-width: 4em;
+    height: 18px;
+    line-height: 18px;
+	padding: 1px 0 1px 18px;
+    color: #333;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.text-controls .highslide-next {
+	margin-right: 1em;
+}
+.text-controls .highslide-full-expand a span {
+	min-width: 0;
+	margin: 1px 0;
+	padding: 1px 0 1px 10px;
+}
+.text-controls .highslide-close a span {
+	min-width: 0;
+}
+.text-controls a:hover span {
+	color: black;
+}
+.text-controls a.disabled span {
+	color: #999;
+}
+
+.text-controls .highslide-previous span {
+	background-position: 0 -40px;
+}
+.text-controls .highslide-previous a.disabled {
+	background-position: left top !important;
+}
+.text-controls .highslide-previous a.disabled span {
+	background-position: 0 -140px;
+}
+.text-controls .highslide-play span {
+	background-position: 0 -60px;
+}
+.text-controls .highslide-play a.disabled {
+	background-position: left top !important;
+}
+.text-controls .highslide-play a.disabled span {
+	background-position: 0 -160px;
+}
+.text-controls .highslide-pause span {
+	background-position: 0 -80px;
+}
+.text-controls .highslide-next span {
+	background-position: 0 -100px;
+}
+.text-controls .highslide-next a.disabled {
+	background-position: left top !important;
+}
+.text-controls .highslide-next a.disabled span {
+	background-position: 0 -200px;
+}
+.text-controls .highslide-full-expand span {
+	background: none;
+}
+.text-controls .highslide-full-expand a.disabled {
+	background-position: left top !important;
+}
+.text-controls .highslide-close span {
+	background-position: 0 -120px;
+}
+
+
+/*****************************************************************************/
+/* Styles for the thumbstrip.							                     */
+/* See www.highslide.com/ref/hs.addSlideshow    							 */
+/* You can safely remove this if you don't use a thumbstrip 				 */
+/*****************************************************************************/
+
+.highslide-thumbstrip {
+	height: 100%;
+	direction: ltr;
+}
+.highslide-thumbstrip div {
+	overflow: hidden;
+}
+.highslide-thumbstrip table {
+	position: relative;
+	padding: 0;
+	border-collapse: collapse;
+}
+.highslide-thumbstrip td {
+	padding: 1px;
+	/*text-align: center;*/
+}
+.highslide-thumbstrip a {
+	outline: none;
+}
+.highslide-thumbstrip img {
+	display: block;
+	border: 1px solid gray;
+	margin: 0 auto;
+}
+.highslide-thumbstrip .highslide-active-anchor img {
+	visibility: visible;
+}
+.highslide-thumbstrip .highslide-marker {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-width: 0;
+	border-style: solid;
+	border-color: transparent; /* change this to actual background color in highslide-ie6.css */
+}
+.highslide-thumbstrip-horizontal div {
+	width: auto;
+	/* width: 100% breaks in small strips in IE */
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-up {
+	display: none;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 25px;
+	height: 42px;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-up div {
+	margin-bottom: 10px;
+	cursor: pointer;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/scrollarrows.png) left center no-repeat;
+	height: 42px;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-down {
+	display: none;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	width: 25px;
+	height: 42px;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-down div {
+	margin-bottom: 10px;
+	cursor: pointer;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/scrollarrows.png) center right no-repeat;
+	height: 42px;
+}
+.highslide-thumbstrip-horizontal table {
+	margin: 2px 0 10px 0;
+}
+.highslide-viewport .highslide-thumbstrip-horizontal table {
+	margin-left: 10px;
+}
+.highslide-thumbstrip-horizontal img {
+	width: auto;
+	height: 40px;
+}
+.highslide-thumbstrip-horizontal .highslide-marker {
+	top: 47px;
+	border-left-width: 6px;
+	border-right-width: 6px;
+	border-bottom: 6px solid gray;
+}
+.highslide-viewport .highslide-thumbstrip-horizontal .highslide-marker {
+	margin-left: 10px;
+}
+.dark .highslide-thumbstrip-horizontal .highslide-marker, .highslide-viewport .highslide-thumbstrip-horizontal .highslide-marker {
+	border-bottom-color: white !important;
+}
+
+.highslide-thumbstrip-vertical-overlay {
+	overflow: hidden !important;
+}
+.highslide-thumbstrip-vertical div {
+	height: 100%;
+}
+.highslide-thumbstrip-vertical a {
+	display: block;
+}
+.highslide-thumbstrip-vertical .highslide-scroll-up {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 25px;
+}
+.highslide-thumbstrip-vertical .highslide-scroll-up div {
+	margin-left: 10px;
+	cursor: pointer;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/scrollarrows.png) top center no-repeat;
+	height: 25px;
+}
+.highslide-thumbstrip-vertical .highslide-scroll-down {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 25px;
+}
+.highslide-thumbstrip-vertical .highslide-scroll-down div {
+	margin-left: 10px;
+	cursor: pointer;
+	background: url(https://plitka.ua/local/templates/plitka_2018/js/highslide/graphics/scrollarrows.png) bottom center no-repeat;
+	height: 25px;
+}
+.highslide-thumbstrip-vertical table {
+	margin: 10px 0 0 10px;
+}
+.highslide-thumbstrip-vertical img {
+	width: 60px; /* t=5481 */
+}
+.highslide-thumbstrip-vertical .highslide-marker {
+	left: 0;
+	margin-top: 8px;
+	border-top-width: 6px;
+	border-bottom-width: 6px;
+	border-left: 6px solid gray;
+}
+.dark .highslide-thumbstrip-vertical .highslide-marker, .highslide-viewport .highslide-thumbstrip-vertical .highslide-marker {
+	border-left-color: white;
+}
+
+.highslide-viewport .highslide-thumbstrip-float {
+	overflow: auto;
+}
+.highslide-thumbstrip-float ul {
+	margin: 2px 0;
+	padding: 0;
+}
+.highslide-thumbstrip-float li {
+	display: block;
+	height: 60px;
+	margin: 0 2px;
+	list-style: none;
+	float: left;
+}
+.highslide-thumbstrip-float img {
+	display: inline;
+	border-color: silver;
+	max-height: 56px;
+}
+.highslide-thumbstrip-float .highslide-active-anchor img {
+	border-color: black;
+}
+.highslide-thumbstrip-float .highslide-scroll-up div, .highslide-thumbstrip-float .highslide-scroll-down div {
+	display: none;
+}
+.highslide-thumbstrip-float .highslide-marker {
+	display: none;
+}
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/css/jquery.bxslider.css?15627124303762*/
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+
+
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto 0px;
+	padding: 0;
+	*zoom: 1;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+}
+
+/** THEME
+===================================*/
+
+.bx-wrapper .bx-viewport {
+	
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+}
+
+/* LOADER */
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(https://plitka.ua/local/templates/plitka/images/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+/* PAGER */
+
+.bx-wrapper .bx-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	text-indent: -9999px;
+	border: 2px solid #fff;
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 0 3px 0 0;
+	outline: 0;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #fff;
+}
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(https://plitka.ua/local/templates/plitka_2018/images/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(https://plitka.ua/local/templates/plitka_2018/images/controls.png) no-repeat -43px -32px;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	outline: 0;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	z-index: 99;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+	display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+
+.bx-wrapper .bx-controls-auto {
+	text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+	display: block;
+	text-indent: -9999px;
+	width: 10px;
+	height: 11px;
+	outline: 0;
+	background: url(https://plitka.ua/local/templates/plitka_2018/images/controls.png) -86px -11px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+	background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+	display: block;
+	text-indent: -9999px;
+	width: 9px;
+	height: 11px;
+	outline: 0;
+	background: url(https://plitka.ua/local/templates/plitka_2018/images/controls.png) -86px -44px no-repeat;
+	margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+	background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+	text-align: left;
+	width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+	right: 0;
+	width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+
+.bx-wrapper .bx-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+
+/* End */
+/* /local/templates/plitka_2018/components/bitrix/catalog/plitka3.0/bitrix/catalog.smart.filter/plitka/style.css?15948177005873 */
+/* /local/templates/plitka_2018/css/buttons.css?15992267396044 */
+/* /local/templates/plitka_2018/components/bitrix/catalog.smart.filter.url.builder/plitka-first-level/style.css?153847881446 */
+/* /local/components/DBdev/reviews.list/templates/.default/style.css?16063973403789 */
+/* /local/templates/plitka_2018/components/bitrix/catalog.offers.list/plitka-slider/style.css?15447312007644 */
+/* /local/templates/plitka_2018/js/highslide/highslide-custom.css?153847881523738 */
+/* /local/templates/plitka_2018/css/jquery.bxslider.css?15627124303762 */

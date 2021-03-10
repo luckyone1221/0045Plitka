@@ -1,0 +1,321 @@
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/menu/contacts_left/style.css?1538478815683*/
+.cont_sb_l .accordion a:hover, .cont_sb_l .accordion span.selected:hover { background: rgb(241, 241, 241); }
+
+.accordion .ui-state-default::after { background-image: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/menu/contacts_left/images/arr_nav_f.png"); background-position: 0px -4px; background-repeat: no-repeat; content: ""; display: inline-block; height: 5px; position: absolute; right: 10px; top: 50%; width: 9px; }
+
+.cont_sb_l .accordion div a::before, .cont_sb_l .accordion div span.selected::before { content: "-"; display: block; float: left; padding: 0px 3px 0px 0px; }
+
+.cont_sb_l .accordion div a:hover, .cont_sb_l .accordion div span.selected:hover { background: rgb(241, 241, 241); color: rgb(243, 113, 12) !important; }
+
+/* End */
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/catalog.store.list/contacts-page/style.css?15384788145903*/
+.tel_tabs2 {
+    margin-bottom:35px !important;
+    margin-top:35px !important;
+    padding:0 99px 0 32px;
+}
+.tel_tabs2 .tabs_b div {
+    padding-top:3px;
+    text-align:left;
+}
+.tabs_b ul {
+    margin:0;
+    padding:0 0 14px;
+}
+.tel_tabs2 .tabs_b ul li:first-child {
+    border-left:1px solid #d5d5d5;
+    border-right:0;
+}
+.tel_tabs2 .tabs_b ul li {
+    background:#f3f3f3;
+    border:1px solid #f3f3f3;
+    border-bottom:1px solid #d5d5d5 !important;
+    border-left:1px solid #d5d5d5 !important;
+    border-right:1px solid #d5d5d5 !important;
+    border-top:1px solid #d5d5d5 !important;
+    color:#000;
+    cursor:pointer;
+    display:block;
+    float:left;
+    font:14px osb;
+    margin:0;
+    padding:0;
+}
+.tabs_b ul li.ui-state-active,.tabs_b ul li.ui-state-active:hover {
+    background:#fff;
+    border-top:1px solid #f3681d !important;
+    color:#000;
+}
+.tabs_b ul li:hover {
+    background:#e8e8e8;
+    border:none;
+    border-left:1px solid transparent;
+}
+.tel_tabs2 .tabs_b ul li a {
+    color:#000;
+    display:block;
+    padding:14px 36px 15px 33px;
+    text-decoration:none;
+}
+.shop_info_box {
+    margin-left:30px;
+    min-height:250px;
+    width:370px;
+}
+.img_link {
+    margin:41px 0 0;
+}
+.shop_info {
+    border:1px solid #e0e0e0;
+    padding:25px 0 28px;
+}
+.shop_info h5 {
+    margin:0 0 13px 21px;
+}
+.shop_info h5 a {
+    color:#000;
+    display:block;
+    font:18px osb;
+    text-decoration:none;
+}
+.ico_loc {
+    font:14px osr;
+    margin:0 0 13px;
+}
+.ico_loc:before {
+    background-image:url(https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog.store.list/contacts-page/images/ico_loc.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    content:'';
+    float:left;
+    height:16px;
+    margin:0 7px 0 22px;
+    width:12px;
+}
+.ico_t2 {
+    color:#000;
+    font:14px osr;
+    margin:0;
+    text-decoration:none;
+}
+.ico_t2:before {
+    background-image:url(https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog.store.list/contacts-page/images/ico_t2.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    content:'';
+    float:left;
+    height:15px;
+    margin:0 5px 0 21px;
+    width:15px;
+}
+
+.ico_mail {
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: normal;
+    font-family: osr;
+    margin: 0px;
+    text-decoration: none;
+    display:block;
+    margin-top:10px;
+}
+
+.ico_mail::before {
+    background-image: url("https://plitka.ua/local/templates/plitka_2018/components/bitrix/catalog.store.list/contacts-page/images/ico_m_b.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    float: left;
+    height: 16px;
+    margin: 0px 5px 0px 21px;
+    width: 16px;
+}
+.reviews {
+    border-bottom:1px dotted #f3710c;
+    color:#f3710c;
+    font:13px osr;
+    margin:6px 0 5px 22px;
+    text-decoration:none;
+}
+.work_mode {
+    color:#000;
+    margin:0;
+}
+.work_mode p {
+    font:14px osb;
+    margin:0 0 14px 20px;
+}
+.work_mode ul {
+    padding:0 38px 0 20px;
+}
+.work_mode li {
+    border-bottom:1px dotted #e0e0e0;
+    clear:both;
+    color:#000;
+    float:left;
+    font:14px osr;
+    margin:0 0 5px;
+    width:100%;
+}
+.work_mode li span {
+    display:block;
+    margin:0 0 8px;
+}
+.map_link {
+    border-bottom:1px dotted #f3710c;
+    color:#f3710c;
+    font:13px osr;
+    margin:13px 0 5px 21px;
+    text-decoration:none;
+}
+.tabs_map_box {
+    background-color:#EAEAEA;
+    border:1px solid #e0e0e0;
+    height:450px;
+    margin:0 0 19px;
+    padding:0 !important;
+    width:100%;
+}
+.tabs_map_box iframe {
+    display:block;
+    height:450px;
+}
+.cb {
+    clear:both !important;
+}
+.one-foot-menu ul li:first-child span,.block-cat:first-child .one-cat,#tabs_maps.tabs_b div,.proj_text p:first-child {
+    padding-top:0;
+}
+.tabs_cont div p,.singl_map_wr p {
+    color:#000;
+    font:14px osr;
+    padding:0 0 10px;
+    text-align:left;
+    width:100%;
+}
+/*max*/
+
+@media screen and (max-width: 1571px) {
+    .shop_info_box
+    {
+        border-right:10px solid transparent !important;
+        display:table-cell;
+        float:none !important;
+        width:30%;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .img_link
+    {
+        margin-top:0;
+    }
+    .tel_tabs2
+    {
+        padding-right:15px;
+    }
+    .tel_tabs2 .tabs_b ul li
+    {
+        font:12px osb;
+        padding:14px 0;
+        width:33%;
+    }
+    .tel_tabs2 .tabs_b ul li a
+    {
+        padding:5px;
+        text-align:center;
+    }
+    .work_mode ul
+    {
+        padding:0 7px 0 20px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .work_mode li
+    {
+        font-size:12px;
+    }
+    .work_mode ul
+    {
+        padding:0 7px 0 10px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .shop_info_box
+    {
+        border:0;
+        clear:both;
+        display:inline-block;
+        float:left !important;
+        margin:20px 0 0;
+        width:300px;
+    }
+    .ico_loc
+    {
+        font-size:12px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cont_sb_l .accordion,.tel_tabs2 .tabs_b ul li
+    {
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tel_tabs2 .tabs_b ul li a
+    {
+        padding:15px 20px;
+    }
+    .tel_tabs2 .tabs_b ul li
+    {
+        font-size:12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tabs_b ul
+    {
+        width:100%;
+    }
+    .tabs_b ul li:hover
+    {
+        border-left:1px solid #e8e8e8;
+    }
+    .tabs_b ul li.ui-state-active,.tabs_b ul li.ui-state-active:hover
+    {
+        border-bottom:1px solid #e8e8e8 !important;
+    }
+    .tabs_b li
+    {
+        border-left:1px solid #e8e8e8 !important;
+        clear:both;
+        float:left;
+        width:100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .tel_tabs2 .tabs_b div
+    {
+        clear:both;
+    }
+}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/map.google.system/templates/.default/style.css?153355130030*/
+.bx-google-map {color: black;}
+/* End */
+/* /local/templates/plitka_2018/components/bitrix/menu/contacts_left/style.css?1538478815683 */
+/* /local/templates/plitka_2018/components/bitrix/catalog.store.list/contacts-page/style.css?15384788145903 */
+/* /bitrix/components/bitrix/map.google.system/templates/.default/style.css?153355130030 */

@@ -1,0 +1,30 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+dev.plitka.ua	TRUE	/	FALSE	1999999999	PHPSESSID	D6huTtDKqS11KcVfWf3XbMHjI8CJit2H
+dev.plitka.ua	TRUE	/	FALSE	1999999999	LIVECHAT_HASH	a7f395c2adf525546847062e8bf8a4a3
+.youtube.com	TRUE	/	FALSE	1999999999	GPS	1
+.youtube.com	TRUE	/	FALSE	1999999999	YSC	hDnGBN8_Qq8
+.youtube.com	TRUE	/	FALSE	1999999999	VISITOR_INFO1_LIVE	6z3CyYkbHG8
+www.youtube.com	TRUE	/	FALSE	1999999999	SameSite	none
+ulogin.ru	TRUE	/	FALSE	1999999999	ulogin_token	u1f4aa29c1c21e01807dde11f9628b5e5
+.facebook.com	TRUE	/	FALSE	1999999999	sb	lMZHYDqrxUVH7uhCtiXSGRgy
+www.pinterest.de	TRUE	/	FALSE	1999999999	csrftoken	59b62f7be268761d43cda6d66cf863ef
+www.pinterest.de	TRUE	/	FALSE	1999999999	_pinterest_sess	TWc9PSZMY0hrSk4xL0xpVnhpY3RoUnN1NTZJRU42Q2NvVllzMHVZSHQrM0tTeGd6bjk2TDZSOGJ6VVVmb1ljUURpZUp1VEJhdzR5MjNqelJta2k3VmN0OEhoL01YNXEzM2EzTUpLbzVENXRIT0oyT2V4Z3Y3SXNSaXNjMXVnZzdGSVduVEJsNlNzQ3VxemJVd1dHOGM0V2lKcUE9PSZDdG5UNmRnZjg5Zyt6eUxPZnJkQ0swTm4zVWM9
+www.pinterest.de	TRUE	/	FALSE	1999999999	samesite	none
+www.pinterest.de	TRUE	/	FALSE	1999999999	_auth	0
+www.pinterest.de	TRUE	/	FALSE	1999999999	_routing_id	93328457-2b17-44b4-ba26-2a1fb1e63b60"
+.instagram.com	TRUE	/	FALSE	1999999999	ig_did	B1266567-9018-4BE4-8989-89E43105F6D2
+.instagram.com	TRUE	/	FALSE	1999999999	mid	YEfGlAAEAAEtDWeu9KnyAJ1UbrgT
+.instagram.com	TRUE	/	FALSE	1999999999	ig_nrcb	1
+.facebook.com	TRUE	/	FALSE	1999999999	noscript	1
+.facebook.com	TRUE	/	FALSE	1999999999	fr	0bebZQmJPnIdkoHBU..BgR8aL.1U.AAA.0.0.BgR8ff.AWXzSfUkpDI
+www.pinterest.de	TRUE	/	FALSE	1999999999	_pinterest_referrer	http://dev.plitka.ua/
+.twitter.com	TRUE	/	FALSE	1999999999	personalization_id	v1_KeCwjcL1DeiEeTxW6BNB1w=="
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A161531702149352944
+twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+.twitter.com	TRUE	/	FALSE	1999999999	ct0	26b178b88872d820434f2f5b6cb59360
+twitter.com	TRUE	/	FALSE	1999999999	cms-csp-nonce	877230d3b7e8f390b0df17fd4692a1a
+plitka.ua	TRUE	/	FALSE	1999999999	BITRIX_SM_SALE_UID	47939640
+plitka.ua	TRUE	/	FALSE	1999999999	PHPSESSID	gUc3Oj0E4K3344BDD4sA4PIa1N9ns4gr
+plitka.ua	TRUE	/	FALSE	1999999999	LIVECHAT_HASH	5a16d6334f6ac53c1a59cd8b93382557
+

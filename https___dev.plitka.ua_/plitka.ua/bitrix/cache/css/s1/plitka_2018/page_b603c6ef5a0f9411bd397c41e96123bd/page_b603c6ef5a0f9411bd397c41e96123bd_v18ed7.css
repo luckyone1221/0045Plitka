@@ -1,0 +1,29 @@
+
+
+/* Start:/local/templates/plitka_2018/components/bitrix/news.list/info_list/style.css?15384788151160*/
+.tabs_b ul li:hover { background: rgb(232, 232, 232); border-top: none; border-right: none; border-bottom: none; border-image: initial; border-left: 1px solid transparent; }
+
+.text_rev .text_rev_art { color: rgb(0, 0, 0); font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 16px; line-height: normal; font-family: osb; margin: 0px 0px 11px; }
+
+.text_rev p { color: rgb(137, 137, 137); font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 13px; font-family: osr; line-height: 21px; margin: 0px 0px 22px; }
+
+.text_rev a { color: rgb(137, 137, 137); text-decoration: none; }
+
+#tabs1 .tabs_b ul li:hover, #tabs_contacts .tabs_b ul li:hover { border-left: none; border-top: 1px solid rgb(213, 213, 213); background: rgb(241, 241, 241) !important; }
+
+.cont_item_box, .text_rev { margin: 0px auto; width: 100%; }
+
+@media screen and (max-width: 1571px) {
+
+    .text_rev { box-sizing: border-box; padding: 0px 15px; width: 99% !important; }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .tabs_b ul li:hover { border-left: 1px solid rgb(232, 232, 232); }
+
+}
+
+/* End */
+/* /local/templates/plitka_2018/components/bitrix/news.list/info_list/style.css?15384788151160 */
