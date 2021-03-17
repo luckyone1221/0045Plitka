@@ -20,5 +20,4 @@ document.addEventListener("DOMContentLoaded", function() {
     $(this).closest('.menu-dd--js').toggleClass('active');
   });
 
-
 });

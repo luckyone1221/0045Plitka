@@ -132,17 +132,22 @@ body{
 
   transition: all .3s;
   transform-origin: top center;
+  //!!
   transform: scaleY(0);
+  //transform: scaleY(1);
 
   position: absolute;
   z-index: 100;
   top: 0;
   left: 100%;
 
-  width: calc(97vw - 100%);
+  //width: calc(97vw - 100%);
   @media (min-width: $xl) {
-    width:auto;
-    max-width: calc(100vw - 100%);
+    width: calc(98.5vw - 100%)!important;
+  }
+
+  @media (min-width: 1621px) {
+    width: calc(1570px - 100%)!important;
   }
 
   background-color: $white;
@@ -157,6 +162,7 @@ body{
   }
 
   &__popular-col{
+    flex-shrink: 0;
     width: 230px;
     padding: 15px;
     border-right: 1px solid $gray-600;
@@ -205,10 +211,13 @@ body{
   &__main-col{
     width: 100%;
     @media (min-width: $xl) {
-      width: 570px;
+      min-width: 570px;
+      flex-grow: 1;
     }
     padding: 15px;
     border-right: 1px solid $gray-600;
+
+
   }
   //
   &__row{
@@ -262,16 +271,18 @@ body{
 
     li{
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       &:before{
+        flex-shrink: 0;
         content: '>';
+        margin-top: 3px;
         width: 10px;
         height: 10px;
         margin-right: 5px;
         color: $gray-400;
       }
       padding: 0!important;
-      margin: 0 0 1px!important;
+      margin: 0 0 5px!important;
 
       a{
         padding: 0!important;
@@ -282,11 +293,12 @@ body{
           color: darken($gray-610, 5);
         }
         font-size: 13px;
-        line-height: (18/13);
+        line-height: (15/13);
       }
     }
   }
   &__baner-col{
+    flex-shrink: 0;
     width: 230px;
     img{
       width: auto;
@@ -294,7 +306,7 @@ body{
       max-width: 100%;
     }
     display: none;
-    @media (min-width: $xxl) {
+    @media (min-width: 1621px) {
       display: block;
     }
   }
